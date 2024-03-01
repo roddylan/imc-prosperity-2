@@ -1,9 +1,5 @@
+from datamodel import OrderDepth, UserId, TradingState, Order
 import numpy as np
-
-
-class TradingState(object):
-    def __init__(self):
-        pass
 
 class Trader:
     def __init__(self):
